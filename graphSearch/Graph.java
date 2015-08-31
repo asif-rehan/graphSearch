@@ -32,7 +32,7 @@ public class Graph {
 	public void addEdge(Edge e) {
 		Integer v = e.getV();
 		Integer w = e.getW();
-		int wt = e.getW();
+		int wt = e.getWeight();
 		addEdge(v, w, wt);
 	}
 	public void removeEdge(Edge e) {
