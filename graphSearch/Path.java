@@ -21,4 +21,3 @@ public class Path {
 		return pathEdges;
 	}
 }
-
